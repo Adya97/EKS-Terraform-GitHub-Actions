@@ -18,10 +18,6 @@
 # variable "private_rt_name"    { type = string }
 # variable "eks_sg"             { type = string }
 
-locals {
-  cluster_name = var.cluster_name
-}
-
 ########################################
 # Discover AZs (use AZ IDs, not letters)
 ########################################
